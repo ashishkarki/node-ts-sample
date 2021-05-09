@@ -1,0 +1,23 @@
+{
+  "name": "node-ts-sample",
+  "author": "ashish karki",
+  "version": "1.0.0",
+  "description": "A sample project using node, express with typescript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "express",
+    "api",
+    "backend",
+    "jest"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "ts-node": "^9.1.1"
+  }
+}
