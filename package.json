@@ -5,9 +5,12 @@
   "description": "A sample project using node, express with typescript.",
   "main": "index.js",
   "scripts": {
-    "start:dev": "ts-node -r tsconfig-paths/register ./src/index.ts",
-    "build": "tsc",
-    "start:prod": "node -r ts-node/register/transpile-only -r tsconfig-paths/register ./dist/src/index.js"
+    "start:dev": "nodemon",
+    "start:prod": "node -r ts-node/register/transpile-only -r tsconfig-paths/register ./dist/src/index.js",
+    "build": "tsc -p tsconfig.prod.json",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "keywords": [
     "node",
